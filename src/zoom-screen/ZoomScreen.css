@@ -1,0 +1,15 @@
+.screen {
+  width: 817px;
+  height: 517px;
+  overflow: scroll;
+  border: 3px solid black;
+  background: palegoldenrod;
+}
+
+.field {
+  width: 800px;
+  height: 500px;
+  transform: scale(1);
+  transform-origin: top left;
+  position: relative;
+}

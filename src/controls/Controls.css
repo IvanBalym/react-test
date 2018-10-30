@@ -1,0 +1,36 @@
+.controls button {
+    background: forestgreen;
+    border: 1px solid forestgreen;
+    color: white;
+    border-radius: 999px;
+    font-size: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: all .3s ease-out;
+}
+
+.controls button:hover {
+    background: white;
+    color: forestgreen;
+    transition: all .3s ease-in;
+}
+
+.controls .plus {
+    padding: 5px 15px;
+}
+
+.controls .minus {
+    padding: 5px 18px;
+}
+
+.controls .minus span {
+    position: relative;
+    top: -3px;
+}
+
+.controls .reset {
+    padding: 7px 10px;
+    font-size: 24px;
+}
